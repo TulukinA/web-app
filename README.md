@@ -1,2 +1,2 @@
-# My Fist Web App
-some description
+# Notes App
+Take good notes and never forget :)
