@@ -39,12 +39,4 @@ window.addEventListener('storage', function (e) {
 
 })
 
-// //JS date instead of timestamps for easier comparisson 
-// const now = moment()
-// now.add(1, 'year').subtract(20, 'days')
-// console.log(now.format('MMMM Do, YYYY'))
-
-// const birthday = moment()
-// birthday.year(1986).month(6).date(29)
-// console.log(birthday.format('MMM Do, YYYY'))
-
+ 

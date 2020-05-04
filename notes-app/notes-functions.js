@@ -16,7 +16,7 @@ const saveNotes = function (notes) {
 
 // Remove a note from the list
 const removeNote = function (id) {
-    const noteIndex = notes.findIndex(function (note){
+    const noteIndex = notes.findIndex(function (note) {
         return note.id === id
     })
 
@@ -67,4 +67,9 @@ const renderNotes = function (notes, filters) {
         const noteEl = generateNoteDOM(note)
         document.querySelector('#notes').appendChild(noteEl)
     })
+}
+
+// Generate the last edited message 
+const genreteLastEdited = function (timestamp) {
+    return `Last edited ${moment(timestamp).fromNow()}`
 }
